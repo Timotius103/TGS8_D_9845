@@ -67,15 +67,15 @@
             </div>
 
             <div class="rounded shadow-lg bg-white m-2 w-75 p-4" id="todo">
-                <label for="nama_tugas" class="font-weight-bold">Apa yang ingin dikerjakan ?</label>
+                <label for="nama_tugas" class="font-weight-bold">Masukkan Pekerjaan yang ingin dikerjakan:</label>
                 <input type="text" id="nama_tugas" class="form-control mb-3" placeholder="Nyetrika, Mandi, Bengong,..." v-model="list_item.tugas">
-                <label for="prioritas" class="font-weight-bold">Penting gak ?</label>
+                <label for="prioritas" class="font-weight-bold">Skala Prioritas:</label>
                 <select id="prioritas" v-model="list_item.prioritas" class="form-control mb-3">
                     <option value="Penting">Penting</option>
                     <option value="Tidak Penting">Tidak Penting</option>
                     <option value="Biasa">Biasa</option>
                 </select>
-                <label for="textarea" class="font-weight-bold" >Ada catatan ?</label>
+                <label for="textarea" class="font-weight-bold" >Catatan:</label>
                 <textarea name="textarea" id="textarea" cols="3" placeholder="Deadline, deskripsi tugas, ..." rows="3" class="form-control mb-3" v-model="list_item.catatan"></textarea>
                 <span v-if="list_item.prioritas == '' && list_item.catatan == '' && list_item.tugas == ''">
                     <button class="btn btn-outline-secondary" @click="reset" disabled>Reset</button>
