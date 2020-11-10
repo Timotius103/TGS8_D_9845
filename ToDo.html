@@ -76,7 +76,7 @@
                     <option value="Biasa">Biasa</option>
                 </select>
                 <label for="textarea" class="font-weight-bold" >Catatan:</label>
-                <textarea name="textarea" id="textarea" cols="3" placeholder="Deadline, deskripsi tugas, ..." rows="3" class="form-control mb-3" v-model="list_item.catatan"></textarea>
+                <textarea name="textarea" id="textarea" cols="3" placeholder="Penting karena...." rows="3" class="form-control mb-3" v-model="list_item.catatan"></textarea>
                 <span v-if="list_item.prioritas == '' && list_item.catatan == '' && list_item.tugas == ''">
                     <button class="btn btn-outline-secondary" @click="reset" disabled>Reset</button>
                 </span>
