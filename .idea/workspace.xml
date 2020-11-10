@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f98f2ccf-27c5-4947-be65-86ab909b88e1" name="Default Changelist" comment="Tugas Vue Basic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +53,8 @@
       <workItem from="1604934682137" duration="5027000" />
       <workItem from="1604942341519" duration="646000" />
       <workItem from="1604979493757" duration="1424000" />
-      <workItem from="1605013831981" duration="9228000" />
+      <workItem from="1605013831981" duration="9767000" />
+      <workItem from="1605038016746" duration="339000" />
     </task>
     <task id="LOCAL-00001" summary="Tugas Vue Basic">
       <created>1605031665010</created>
@@ -68,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605031856591</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tugas Vue Basic">
+      <created>1605031950189</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605031950189</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,10 +92,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605031567540" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1605031865885">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1605031956489">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1605031865885" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1605031956489" />
     <state x="570" y="324" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605031586297">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
